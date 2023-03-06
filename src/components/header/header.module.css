@@ -1,0 +1,37 @@
+.wrapper {
+  background-color: black;
+  padding: 50px 20px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  border-radius: 20px;
+  align-items: center;
+  margin-bottom: 100px;
+  height: 400px;
+}
+
+.title {
+  line-height: 1.2;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.info {
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.img {
+  width: 470px;
+}
+
+@media (max-width: 792px) {
+  .wrapper {
+    text-align: center;
+    flex-direction: column;
+    height: 800px;
+  }
+  .headerImg {
+    margin-top: 50px;
+  }
+}

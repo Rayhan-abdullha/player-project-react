@@ -1,0 +1,19 @@
+.wrapper {
+  background-color: brown;
+  padding: 20px 0;
+}
+.ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.menuList {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+}
+.menuList:hover {
+  text-decoration: underline;
+}

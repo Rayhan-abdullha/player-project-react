@@ -1,0 +1,17 @@
+.card {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  grid-gap: 20px;
+  align-items: stretch;
+  margin-bottom: 50px;
+}
+.singlePlayer {
+  background-color: rgb(233, 233, 233);
+  padding: 20px;
+  border-radius: 10px;
+}
+.playerImg {
+  border-radius: 10px;
+  width: 100%;
+  cursor: pointer;
+}

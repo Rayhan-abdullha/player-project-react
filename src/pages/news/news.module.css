@@ -1,0 +1,23 @@
+.news {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  grid-gap: 20px;
+  align-items: stretch;
+  margin: 50px auto;
+}
+
+.imgWrapper {
+  background-color: brown;
+  padding: 10px;
+  height: 235px;
+}
+.articleImg {
+  width: 100%;
+  border-adius: 10px;
+  height: 100%;
+}
+.singleArticale {
+  background: rgb(234, 234, 234);
+  padding: 20px;
+  border-radius: 10px;
+}

@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Arimo:wght@400;500&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+body {
+  font-family: "Arimo", sans-serif;
+}
+
+.layout-height {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+}
