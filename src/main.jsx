@@ -6,8 +6,8 @@ import Home from "./pages/Home";
 import LiveMatch from "./pages/LiveMatch";
 import TransferMain from "./pages/singlePlayerDtails";
 import NotFound from "./components/notfound/NotFound";
-import News from "./pages/news/news";
 import NewsDetails from "./pages/newDetails/NewsDetails";
+import News from "./pages/news/News";
 
 export const router = createBrowserRouter([
   {
